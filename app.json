@@ -1,0 +1,45 @@
+{
+   "expo": {
+      "name": "Luma Reparaciones",
+      "slug": "delivery-app",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "newArchEnabled": true,
+      "splash": {
+         "image": "./assets/splash-icon.png",
+         "resizeMode": "contain",
+         "backgroundColor": "#ffffff"
+      },
+      "ios": {
+         "supportsTablet": true
+      },
+      "android": {
+         "adaptiveIcon": {
+            "foregroundImage": "./assets/adaptive-icon.png",
+            "backgroundColor": "#ffffff"
+         },
+         "predictiveBackGestureEnabled": false,
+         "package": "com.juniormr.dapp"
+      },
+      "web": {
+         "favicon": "./assets/favicon.png"
+      },
+      "plugins": [
+         [
+            "expo-camera",
+            {
+               "cameraPermission": "Permite acceso a la cámara para tomar fotos en el chat.",
+               "recordAudioAndroid": false
+            }
+         ]
+      ],
+      "extra": {
+         "eas": {
+            "projectId": "95963019-67f3-4170-8877-cab9b5841c04"
+         }
+      },
+      "owner": "juniormr"
+   }
+}
